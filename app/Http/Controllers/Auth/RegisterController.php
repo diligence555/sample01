@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers\Auth;
 
+<<<<<<< HEAD
 use App\Models\User;
+=======
+use App\User;
+>>>>>>> 03d9b0dd7586d68ef22d969394e5a08efc8dcc30
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -58,7 +62,11 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
+<<<<<<< HEAD
      * @return \App\App\Models\User
+=======
+     * @return \App\User
+>>>>>>> 03d9b0dd7586d68ef22d969394e5a08efc8dcc30
      */
     protected function create(array $data)
     {

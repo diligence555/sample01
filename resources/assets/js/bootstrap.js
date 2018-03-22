@@ -29,7 +29,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
  * a simple convenience so we don't have to attach every token manually.
  */
 
+<<<<<<< HEAD
  /*
+=======
+>>>>>>> 03d9b0dd7586d68ef22d969394e5a08efc8dcc30
 let token = document.head.querySelector('meta[name="csrf-token"]');
 
 if (token) {
@@ -37,7 +40,10 @@ if (token) {
 } else {
     console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
+<<<<<<< HEAD
 */
+=======
+>>>>>>> 03d9b0dd7586d68ef22d969394e5a08efc8dcc30
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

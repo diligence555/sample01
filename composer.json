@@ -8,8 +8,12 @@
         "php": ">=7.0.0",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
+<<<<<<< HEAD
         "laravel/tinker": "~1.0",
         "overtrue/laravel-lang": "~3.0"
+=======
+        "laravel/tinker": "~1.0"
+>>>>>>> 03d9b0dd7586d68ef22d969394e5a08efc8dcc30
     },
     "require-dev": {
         "filp/whoops": "~2.0",

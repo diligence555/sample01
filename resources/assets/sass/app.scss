@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 
 // Bootstrap
@@ -183,3 +184,13 @@ input {
     background-color: transparent;
   }
 }
+=======
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+>>>>>>> 03d9b0dd7586d68ef22d969394e5a08efc8dcc30
